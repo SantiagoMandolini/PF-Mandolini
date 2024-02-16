@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas</title>
+    <meta name="description" content="Las mejores ofertas en todos los productos que te gustan, desde consolas, telefonos y juegos">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!--Hoja de estilo CSS-->
+<link rel="stylesheet" href="/css/styles.css">
+ <!-- AOS Styles (animaciones) -->
+ <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+    <header>
+        <!--Menu de navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-black bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="../img/Logo.webp" alt="Logo"> </a>
+                <button class="navbar-toggler btn-green" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active btn-green" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn-green" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu btn-green" aria-labelledby="navbarDropdownMenuLink">
+
+                                <li><a class="dropdown-item" href="../pages/Consolas.html">Consolas</a></li>
+                                <li><a class="dropdown-item" href="../pages/Telefonos.html">Telefonos</a></li>
+                                <li><a class="dropdown-item" href="../pages/Juegos.html">Juegos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+   
+<!-- Productos en oferta-->
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                <div class="card mb-4 producto">
+                    <img src="../img/TLOZ-Link-Awakening.webp" class="card-img-top" alt="Juego The Legend Of Zelda Link's Awakening" class="card-img-top" alt="Teléfono S24">
+                    <div class="card-body">
+                        <h3>Zelda Link's Awakening</h3>
+                        <p class="descripcion-producto">Despierta como Link en una tierra lejana a Hyrule, donde animales hablan y monstruos acechan. Explora la isla Koholint y sus mazmorras llenas de trampas y descubre la verdad de tu paradero.</p>
+                        <div class="price">
+                            <p>USD$48</p>
+                            <button>BUY</button>
+                        </div>
+                    </div>
+                    <div class="product-badge">20%OFF</div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                <div class="card mb-4 producto">
+                    <img src="../img/PS5-Horizon.webp" class="card-img-top" alt="Playstation 5">
+                    <div class="card-body">
+                        <h3>Consola Play 5</h3>
+                        <p class="descripcion-producto">Consigue el paquete PlayStation®5: Horizon Forbidden West™ y únete a Aloy en su aventura en PS5™. Disfruta de las innovaciones como imágenes 4K y HDR*, DualSense™ y comentarios hápticos..</p>
+                        <div class="price">
+                            <p>USD$415</p>
+                            <button>BUY</button>
+                        </div>
+                    </div>
+                    <div class="product-badge">17%OFF</div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                <div class="card mb-4 producto">
+                    <img src="../img/Mario-Deluxe.webp" class="card-img-top" alt="Juego Mario Brous U Deluxe">
+                    <div class="card-body">
+                        <h3>Mario Brous U Deluxe</h3>
+                        <p class="descripcion-producto">
+                            Disfruta de más de 160 niveles en 2D en New Super Mario Bros. U Deluxe para Nintendo Switch. Revive el estilo clásico de Super Mario con saltos, carreras y pisotones de campeonato</p>
+                        <div class="price">
+                            <p>USD$54</p>
+                            <button>BUY</button>
+                        </div>
+                    </div>
+                    <div class="product-badge">10%OFF</div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                <div class="card mb-4 producto">
+                    <img src="../img/Rog-phone-7.webp" class="card-img-top" alt="Teléfono Rog Phone 7">
+                    <div class="card-body">
+                        <h3>Rog Phone 7</h3>
+                        <p class="descripcion-producto">¡El ROG Phone 7 es el teléfono gaming de tus sueños! Con el Snapdragon® 8 Gen 2 y ray tracing, diseño futurista de dos tonos, GameCool 7 para mantenerlo fresco y una batería de 6000 mAh. </p>
+                        <div class="price">
+                            <p>$USD560</p>
+                            <button>BUY</button>
+                        </div>
+                    </div>
+                    <div class="product-badge">30%OFF</div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                <div class="card mb-4 producto">
+                    <img src="../img/switch-fortnite.webp" class="card-img-top" alt="Consola Nintendo Switch edicion fornite">
+                    <div class="card-body">
+                        <h3>Nintendo Switch Wildcat</h3>
+                        <p class="descripcion-producto">Incluye un Nintendo Switch con un diseño único con arte especial en la consola y la base de la consola, un Joy-Con amarillo (L) y un Joy-Con azul (R) y un código de para el paquete Wildcat. </p>
+                        <div class="price">
+                            <p>USD$285</p>
+                            <button>BUY</button>
+                        </div>
+                    </div>
+                    <div class="product-badge">5%OFF</div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                <div class="card mb-4 producto">
+                    <img src="../img/spider-man-miles-morales.webp" class="card-img-top" alt="Juego Marvel Spider-Man">
+                    <div class="card-body">
+                        <h3>Spider-Man miles morales</h3>
+                        <p class="descripcion-producto">El adolescente Miles Morales intenta ajustarse a su nuevo hogar mientras que sigue los pasos de su mentor, Peter Parker, para convertirse en el nuevo Spider-Man.
+                        </p>
+                        <div class="price">
+                            <p>USD$52.80</p>
+                            <button>BUY</button>
+                        </div>
+                    </div>
+                    <div class="product-badge">12%OFF</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer> 
+    <!--Marcas disponibles en la tienda-->
+      <div class="logos"> <h2>Encuentra las mejores marcas:</h2>
+          <div class="logos-marcas">
+            <img src="../img/Nintendo-Logo.webp" alt="Logo Nintendo">
+            <img src="../img/Xbox-Logo.webp" alt="Logo Xbox">
+            <img src="../img/PlayStation-Logo.webp" alt="Logo Playstation">
+            <img src="../img/Asus-Logo.webp" alt="Logo Asus">
+            <img src="../img/Samsung-Logo.webp" alt="Logo Samsung">
+            <img src="../img/Xiaomi-Logo.webp" alt="Logo Xiaomi">
+            <img src="../img/Honor-Logo.webp" alt="Logo Honor">
+            <img src="../img/Huawei-Logo.webp" alt="Logo Huawei">
+        </div>
+        <!--misma imagenes para ilusionm de bucle-->
+        <div class="logos-marcas-segundo">
+            <img src="../img/Nintendo-Logo.webp" alt="Logo Nintendo">
+            <img src="../img/Xbox-Logo.webp" alt="Logo Xbox">
+            <img src="../img/PlayStation-Logo.webp" alt="Logo Playstation">
+            <img src="../img/Asus-Logo.webp" alt="Logo Asus">
+            <img src="../img/Samsung-Logo.webp" alt="Logo Samsung">
+            <img src="../img/Xiaomi-Logo.webp" alt="Logo Xiaomi">
+            <img src="../img/Honor-Logo.webp" alt="Logo Honor">
+            <img src="../img/Huawei-Logo.webp" alt="Logo Huawei">
+        </div>
+    </div>
+    <!-- Redes sociales al final de la pagina -->
+    <div class="footer-content">
+        <img src="../img/twitter.webp" alt="logo twitter" class="footer-image"> <p>@TechPLayCentral</p>
+    </div>
+
+     
+</footer>
+ <!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

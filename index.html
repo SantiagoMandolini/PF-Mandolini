@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPlay Central</title>
+    <meta name="description" content="Sample shop es una tienda que ofrece una gran variedad, desde consolas, teléfonos y juegos">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Hoja de estilo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- AOS Styles (animaciones) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+    <header>
+        <!--Menu de navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="./img/Logo.webp" alt="Logo"> </a>
+                <button class="navbar-toggler btn-green" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link btn-green" href="./pages/Ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle btn-green" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu btn-green" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./pages/Telefonos.html">Teléfonos</a></li>
+                                <li><a class="dropdown-item" href="./pages/Consolas.html">Consolas</a></li>
+                                <li><a class="dropdown-item" href="./pages/Juegos.html">Juegos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+     <!--Carrucel de imagenes de la pagina de inicio-->
+     <section>
+        <div class="container-fluid">
+            <div class="position-relative">
+                <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/Rog-phone-8-banner.webp" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/switch-banner.webp" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/persona-3-baner.webp" class="d-block w-100" alt="Slide 3">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselWithControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Productos de muestra-->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                    <div class="card mb-4 producto">
+                        <img src="./img/S24.webp" class="card-img-top" alt="Teléfono S24">
+                        <div class="card-body">
+                            <h3>Samsung S24</h3>
+                            <p class="descripcion-producto">El Galaxy S24 más pequeño tiene una pantalla más grande en un chasis similar al del año pasado. Aunque Samsung lo mantiene algo limitado en comparación con sus modelos más grandes.</p>
+                            <div class="price">
+                                <p>USD$800</p>
+                                <button>BUY</button>
+                            </div>
+                        </div>
+                        <div class="product-badge">Telefono</div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                    <div class="card mb-4 producto">
+                        <img src="./img/play5.webp" class="card-img-top" alt="Consola Play 5">
+                        <div class="card-body">
+                            <h3>Consola Play 5</h3>
+                            <p class="descripcion-producto">Experimenta la velocidad de carga sorprendente y la inmersión intensa con la SSD de alta velocidad. Disfruta de funciones como retrolimentación háptica y audio 3D, con la nueva generación.</p>
+                            <div class="price">
+                                <p>USD$500</p>
+                                <button>BUY</button>
+                            </div>
+                        </div>
+                        <div class="product-badge">CONSOLA</div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                    <div class="card mb-4 producto">
+                        <img src="./img/Mario-Wonder.webp" class="card-img-top" alt="Juego Mario Wonder">
+                        <div class="card-body">
+                            <h3>Juego Mario Wonder</h3>
+                            <p class="descripcion-producto">Mario y sus amigos visitan el Reino Flor, cercano al Reino Champiñón. Bowser se convierte en un castillo volador y causa caos. Nuestros héroes deben salvar el día y al Reino Flor.</p>
+                            <div class="price">
+                                <p>USD$60</p>
+                                <button>BUY</button>
+                            </div>
+                        </div>
+                        <div class="product-badge">JUEGO</div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                    <div class="card mb-4 producto">
+                        <img src="./img/Rog-phone-8.webp" class="card-img-top" alt="Teléfono Rog Phone 8">
+                        <div class="card-body">
+                            <h3>Teléfono Rog Phone 8</h3>
+                            <p class="descripcion-producto">Adéntrate en el futuro del mundo gaming para móviles con el revolucionario y rediseñado ROG Phone 8, una mezcla sin precedentes de pura destreza gaming y elegancia para el día a día.</p>
+                            <div class="price">
+                                <p>$USD975</p>
+                                <button>BUY</button>
+                            </div>
+                        </div>
+                        <div class="product-badge">TELEFONO</div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                    <div class="card mb-4 producto">
+                        <img src="./img/Switch.webp" class="card-img-top" alt="Consola Nintendo Switch">
+                        <div class="card-body">
+                            <h3>Consola Nintendo Switch</h3>
+                            <p class="descripcion-producto">Consigue la consola que te permite jugar donde quieras y como quieras. Lleva la experiencia de juego a cualquier lugar, ya sea al parque, en un avión, en un automóvil o en casa de un amigo.</p>
+                            <div class="price">
+                                <p>USD$300</p>
+                                <button>BUY</button>
+                            </div>
+                        </div>
+                        <div class="product-badge">CONSOLA</div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6" data-aos="fade-up fade-down">
+                    <div class="card mb-4 producto">
+                        <img src="./img/persona-3-Reload.webp" class="card-img-top" alt="Juego Persona 3 Reload">
+                        <div class="card-body">
+                            <h3>Persona 3 Relaod</h3>
+                            <p class="descripcion-producto">Vive la aventura como un estudiante nuevo en la hora "escondida". Despierta un poder increíble, explora los misterios de la Hora Oscura y lucha con a tus amigos para dejar una huella en sus memorias.</p>
+                            <div class="price">
+                                <p>USD$70</p>
+                                <button>BUY</button>
+                            </div>
+                        </div>
+                        <div class="product-badge">JUEGO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer> 
+        <!--Marcas disponibles en la tienda-->
+          <div class="logos"> <h2>Encuentra las mejores marcas:</h2>
+              <div class="logos-marcas">
+                <img src="./img/Nintendo-Logo.webp" alt="Logo Nintendo">
+                <img src="./img/Xbox-Logo.webp" alt="Logo Xbox">
+                <img src="./img/PlayStation-Logo.webp" alt="Logo Playstation">
+                <img src="./img/Asus-Logo.webp" alt="Logo Asus">
+                <img src="./img/Samsung-Logo.webp" alt="Logo Samsung">
+                <img src="./img/Xiaomi-Logo.webp" alt="Logo Xiaomi">
+                <img src="./img/Honor-Logo.webp" alt="Logo Honor">
+                <img src="./img/Huawei-Logo.webp" alt="Logo Huawei">
+            </div>
+            <!--misma imagenes para ilusionm de bucle-->
+            <div class="logos-marcas-segundo">
+                <img src="./img/Nintendo-Logo.webp" alt="Logo Nintendo">
+                <img src="./img/Xbox-Logo.webp" alt="Logo Xbox">
+                <img src="./img/PlayStation-Logo.webp" alt="Logo Playstation">
+                <img src="./img/Asus-Logo.webp" alt="Logo Asus">
+                <img src="./img/Samsung-Logo.webp" alt="Logo Samsung">
+                <img src="./img/Xiaomi-Logo.webp" alt="Logo Xiaomi">
+                <img src="./img/Honor-Logo.webp" alt="Logo Honor">
+                <img src="./img/Huawei-Logo.webp" alt="Logo Huawei">
+            </div>
+        </div>
+        <!-- Redes sociales al final de la pagina -->
+        <div class="footer-content">
+            <img src="./img/twitter.webp" alt="logo twitter" class="footer-image"> <p>@TechPLayCentral</p>
+        </div>
+
+         
+    </footer>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
+
+
